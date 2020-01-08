@@ -1,0 +1,108 @@
+{
+  "computers": [
+      {
+          "id": 1,
+          "model": "Macbook Pro",
+          "year": 2015
+      },
+      {
+          "id": 2,
+          "model": "HP",
+          "year": 2018
+      },
+      {
+          "id": 3,
+          "model": "Alienware",
+          "year": 2019
+      },
+      {
+          "id": 4,
+          "model": "Asus",
+          "year": 2020
+      },
+      {
+          "id": 5,
+          "model": "Dell",
+          "year": 2014
+      }
+  ],
+  "employees": [
+      {
+          "id": 1,
+          "firstName": "Rainu",
+          "lastName": "Ittycheriah",
+          "age": 20,
+          "computerId": 1,
+          "departmentId": 4,
+          "locationId": 2
+      },
+      {
+          "id": 2,
+          "firstName": "Holden",
+          "lastName": "Parker",
+          "age": 29,
+          "computerId": 3,
+          "departmentId": 1,
+          "locationId": 3
+      },
+      {
+          "id": 3,
+          "firstName": "Wally",
+          "lastName": "Gajewski",
+          "age": 24,
+          "computerId": 5,
+          "departmentId": 2,
+          "locationId": 1
+      },
+      {
+          "id": 4,
+          "firstName": "Aunt",
+          "lastName": "Jemima",
+          "age": 99,
+          "computerId": 4,
+          "departmentId": 3,
+          "locationId": 2
+      },
+      {
+          "id": 5,
+          "firstName": "Spongebob",
+          "lastName": "Squarepants",
+          "age": 12,
+          "computerId": 2,
+          "departmentId": 3,
+          "locationId": 1
+      }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "IT"
+    },
+    {
+      "id": 2,
+      "name": "Health"
+    },
+    {
+      "id": 3,
+      "name": "Sales"
+    },
+    {
+      "id": 4,
+      "name": "Accounting"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "place": "Atlanta"
+    },
+    {
+      "id": 2,
+      "place": "Nashville"
+    },
+    {
+      "id": 3,
+      "place": "Memphis"
+    }
+  ]
+}
